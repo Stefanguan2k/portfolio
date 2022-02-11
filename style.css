@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap");
+
+:root {
+  font-family: "Rubik", arial, helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    45deg,
+    rgb(168, 224, 221),
+    rgb(213, 165, 231)
+  );
+  animation: bg-gradient 5s linear infinite;
+  background-size: 200% 200%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.logo > svg {
+  transform: scale(0.6);
+}
+
+.splash-text {
+  padding: 2rem;
+}
+
+.splash-text > h1 {
+  font-size: clamp(0.8rem, 10vw + 1rem, 2rem);
+  text-align: center;
+}
+
+.splash-text > p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+@keyframes bg-gradient {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
