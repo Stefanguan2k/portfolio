@@ -72,3 +72,10 @@ body {
     background-position: 10% 0%;
   }
 }
+
+@media (max-width: 767px) {
+  .logo {
+    transform: scale(0.7);
+    padding: 0;
+  }
+}
