@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap");
-
 :root {
-  font-family: "Rubik", arial, helvetica, sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
 }
 
 body {
