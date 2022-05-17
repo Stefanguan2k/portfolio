@@ -61,46 +61,6 @@ body {
   font-size: 1.25rem;
 }
 
-.technology {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  padding-top: 5rem;
-}
-
-.icons {
-  display: flex;
-  gap: 3rem;
-  fill: rgba(0, 0, 0, 0.5);
-}
-
-.icons > svg {
-  width: 30px;
-}
-
-.html-icon,
-.css-icon,
-.js-icon {
-  transition: all 0.2s ease-in-out;
-}
-
-.html-icon:hover {
-  transform: scale(1.3);
-  fill: rgb(228,77,38);
-}
-
-.css-icon:hover {
-  transform: scale(1.3);
-  fill: rgb(22,125,190);
-}
-
-.js-icon:hover {
-  transform: scale(1.3);
-  fill: rgb(163, 122, 0);
-}
-
 @keyframes bg-gradient {
   0% {
     background-position: 10% 0%;
